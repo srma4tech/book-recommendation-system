@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Recommendation System</h1>
+        
+        <div class="input-section">
+            <input type="text" id="genre" placeholder="Enter Genre (e.g., Fiction, Mystery)" />
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="bookResults" class="book-results"></div>
+        <div id="loadMore" class="load-more-container">
+            <button class="load-more-btn" onclick="loadMoreBooks()">Load More</button>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 <a href="mailto:sachin.aem@outlook.com">srma4tech</a>. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
